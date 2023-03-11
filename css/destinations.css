@@ -1,4 +1,10 @@
-/* Styles for the main title */
+.nav__item--active {
+    text-decoration: underline;
+    text-decoration-color: #db7a4e;
+    text-decoration-thickness: .19rem;
+    text-underline-offset: 10px;
+  }
+
 
 .main {
     position: relative;
@@ -6,21 +12,19 @@
 
 
 .main-heading {
-    font-size: 60px;
+    font-size: 3.75rem;
     color: white;
     position: absolute;
-    left: 105px;
-    top: 105px;
+    left: 6.5625rem;
+    top: 6.5625rem;
 }
 
-/* Styles for the destination image */
 .destination-image {
     width: 100%;
     height: 100vh;
     object-fit: cover;
 }
 
-/* Styles for the itinerary section */
 .itinerary {
     display: flex;
     text-align: center;
@@ -28,56 +32,36 @@
     right: 9.75rem;
     width: 70%;
     height: 50%;
-    top: 260px;
+    top: 16.25rem;
 }
 
-/* Styles for the itinerary day card */
 .itinerary__card {
-    padding: 20px;
+    padding: 1.25rem;
     width: 25%;
     border-radius: .3125rem;
     border: .0625rem rgba(0, 0, 0, 0.5);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
     background-color: #fff;
-    margin-right: 30px;
+    margin-right: 1.875rem;
 }
 
-/* Styles for the itinerary day title */
+.itinerary__card:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+
 .itinerary__day-title {
     border-bottom: 2px solid black;
-    padding-bottom: 5px;
-    margin-bottom: 30px;
+    padding-bottom: .3125rem;
+    margin-bottom: 1.875rem;
 }
 
-/* Styles for the itinerary activity */
 .itinerary__activity {
     background-color: #FEFAF5;
-    padding: 20px;   
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 1.25rem;   
+    margin-top: .625rem;
+    margin-bottom: .625rem;
     font-weight: 300;
 }
 
-
-
-
-/* .main-title {}
-
-.main-heading {
-    font-size: 60px;
-    color: white;
-}
-
-.destination-image {
-     width: 100%;
-    height: 100vh;
-    object-fit: cover;
-}
-
-.itinerary {}
-
-.itinerary__card {}
-
-.itinerary__day-title {}
-
-.itinerary__activity {} */

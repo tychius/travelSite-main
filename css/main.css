@@ -42,13 +42,13 @@
   text-align: center;
   width: 30%;
   border-radius: 30px;
-  padding: 10px;
+  padding: .625rem;
   border: none;
 }
 
 .hero__image {
   width: 40%;
-  padding: 3.125rem
+  padding: 3.125rem;
 }
 
 /* Main Section */
@@ -91,7 +91,14 @@
 
 .card__title {
   position: absolute;
-  bottom: 1.25rem;
-  left: 75%;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
   color: #fff;
 }
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.2s ease-in-out;
+}
+

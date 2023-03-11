@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Header Section */
@@ -19,7 +20,7 @@
     color: #335576;
     font-weight: bold;
     font-size:  1.5625rem;  
-    margin-left: 60px;
+    margin-left: 3.75rem;
   }
   
   .nav__list {
@@ -37,6 +38,13 @@
   .nav__link {
     text-decoration: none;
     color: #333;
+  }
+
+  .nav__link:hover {
+    text-decoration: underline;
+    text-decoration-color: #db7a4e;
+    text-decoration-style: wavy;
+    text-decoration-thickness: .125rem;
   }
 
   /*Footer Section */
@@ -80,6 +88,4 @@
     height: 50%;
   }
 
-  * {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+ 

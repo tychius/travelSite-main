@@ -1,0 +1,57 @@
+/* Form Block */
+.form {
+    padding: 3.125rem;
+    background-color: #fefaf6;
+}
+
+/* Form Title Element */
+.form__title {
+    color: #325476;
+    font-size: 1.5625rem;
+    margin-bottom: 1.875rem;
+}
+
+/* Form Container Block */
+.form__container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Form Label Element */
+.form__label {
+    color: #335576;
+    font-size: 0.9375rem;
+    margin-bottom: 0.625rem;
+}
+
+/* Form Input Element */
+.form__input {
+    margin-bottom: 1.25rem;
+    padding: 0.625rem;
+    border-radius: 0.3125rem;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Form Select Element */
+.form__select {
+    background-color: #fff;
+    color: #335576;
+}
+
+/* Form Submit Button Element */
+.form__submit-btn {
+    background-color: #db7a4e;
+    color: #fff;
+    text-align: center;
+    width: 30%;
+    border-radius: 30px;
+    padding: 0.625rem;
+    border: none;
+}
+
+/* Form Submit Button Element - Hover State Modifier */
+.form__submit-btn:hover {
+    background-color: #335576;
+    cursor: pointer;
+}
